@@ -29,7 +29,7 @@ class _UsersScreenState extends State<UsersScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Posts Screen")),
+      appBar: AppBar(title: Text("Users Screen")),
       body: loading
           ? Center(child: CircularProgressIndicator())
           : ListView.builder(

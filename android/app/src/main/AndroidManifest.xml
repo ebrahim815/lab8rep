@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.untitled">
+    package="com.creatville.untitled">
    <application
         android:label="untitled"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBFkbly0Y_gEO3DPMZZuzgvO4SEvOrLa8s"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
